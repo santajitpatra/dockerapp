@@ -1,0 +1,7 @@
+version: ' "3'
+services:
+web:
+containers_name: reactContainer
+build: .
+ports:
+- 3000:80
